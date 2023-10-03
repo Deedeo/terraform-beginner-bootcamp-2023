@@ -247,3 +247,11 @@ If you lose this file, you lose knowning the state of your infrastructure.
 ### Terraform Directory
 
 `.terraform` directory contains binaries of terraform providers.
+
+### Simple S3 bucket
+
+To create an s3 bucket using terraform we needed to add aprovider block and the resoyces block use to create s3 bucket [S3-resources](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+
+
+#### AWS S3 naming Rules
+S3 naming convention requires all letter  or numbers to be in lowercase so we change the random name creation block to generate lower case letters. [S3 naming](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
