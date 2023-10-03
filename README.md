@@ -285,3 +285,7 @@ Provide the following code (replace your token in the file):
   }
 }
 ``````
+
+#### Automated Setting Terraform Coud Token in Gitpod
+
+We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials).
