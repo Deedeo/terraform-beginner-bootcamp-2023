@@ -1,3 +1,4 @@
+// The provider block needed for the project is defined here
 terraform {
   cloud {
     organization = "Deebudapest"
