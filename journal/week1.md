@@ -150,3 +150,11 @@ resource "aws_s3_object" "index_html" {
   key    = "index.html"
   source = "${path.root}/public/index.html"
 }
+
+### Fix Path file for Terraform Cloud
+
+configure path to the index.html and error.html file in other to enable terraform cloud pick the filepath
+
+```sh
+{path.root}${var.index_html_filepath}
+```
