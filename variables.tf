@@ -14,6 +14,7 @@ variable "index_html_filepath" {
   type = string
 }
 
+// this changes occur when version number is changed.
 variable "content_version" {
   type = number
 }
