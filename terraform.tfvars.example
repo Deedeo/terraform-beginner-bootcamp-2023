@@ -2,3 +2,4 @@ user_uuid="b59d1dc3-45b7-44c7-8771-62cc39b8a6fb"
 bucket_name = "my-random-s3-bucket-37f8d"
 index_html_filepath="/public/index.html"
 error_html_filepath="/public/error.html"
+content_version=1
