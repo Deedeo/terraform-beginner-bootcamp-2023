@@ -10,7 +10,7 @@ tasks:
   - name: sinatra
     before: | 
       cd $PROJECT_ROOT
-      cd terraforms_mock_server
+      cd terratowns_mock_server
       bundle install
       bundle exec ruby server.rb 
       
