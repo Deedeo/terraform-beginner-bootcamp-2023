@@ -2,9 +2,9 @@ variable "teacherseat_user_uuid" {
  type = string
 }
 
-variable "bucket_name" {
-  type = string
-}
+# variable "bucket_name" {
+#   type = string
+# }
 variable "terratowns_endpoint" {
  type = string
 }
