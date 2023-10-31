@@ -27,3 +27,17 @@ variable "payday" {
   })
 }
   
+variable "arcanum" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
+}
+
+variable "payday" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
+}
+  
