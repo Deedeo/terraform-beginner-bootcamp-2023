@@ -1,7 +1,11 @@
 teacherseat_user_uuid="b59d1dc3-45b7-44c7-8771-62cc39b8a6fb"
 terratowns_endpoint="https://terratowns.cloud/api"
 bucket_name = "my-random-s3-bucket-37f8d"
-index_html_filepath="/public/index.html"
-error_html_filepath="/public/error.html"
-content_version=1
-assets_path="/workspace/terraform-beginner-bootcamp-2023/public/assets/"
+arcanum = {
+  public_path = "/workspace/terraform-beginner-bootcamp-2023/public/arcanum"
+  content_version = 2 
+}
+payday = {
+  public_path = "/workspace/terraform-beginner-bootcamp-2023/public/payday"
+  content_version = 1 
+}
